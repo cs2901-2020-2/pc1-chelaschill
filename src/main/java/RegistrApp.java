@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ResgistrApp {
+public class RegistrApp {
 
     public static boolean registrar(){
         Scanner sc= new Scanner(System.in);
