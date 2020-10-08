@@ -9,12 +9,12 @@ public class RegistAppTest {
     }
 
     @Test(invocationCount = 100, threadPoolSize = 100)
-    public void testCase3() throws Exception {
-        long startTime = System.currentTimeMillis();
+    public void Test2() throws Exception {
+        long inicio = System.currentTimeMillis();
         generic(0);
-        long endTime = System.currentTimeMillis();
-        long timeElapsed = endTime - startTime;
-        Assert.assertTrue(timeElapsed < 100);
+        long end = System.currentTimeMillis();
+        long total = end - inicio;
+        Assert.assertTrue(total < 100);
     }
 
     private void generic(int i) throws Exception,FailException {
